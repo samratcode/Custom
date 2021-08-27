@@ -84,7 +84,8 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} Python Version -** {pyver}
 **{EMOJI} Uptime -** {uptime}
 **{EMOJI} Platform -** Linux
-**{EMOJI} Database -** SQL"""
+**{EMOJI} Database -** SQL
+**Server Ping-**{ms}"""
 
 @catub.cat_cmd(
     pattern="ialive$",
