@@ -40,12 +40,12 @@ async def amireallyalive(event):
     reply_to_id = await reply_id(event)
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await edit_or_reply(event, "Checking...")
+    await edit_or_reply(event, "Launching")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "  ✥ "
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "****"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**🔥This World shall Know the pain:- All mighty push!🔥**"
     CAT_IMG = gvarstatus("ALIVE_PIC")
     cat_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = cat_caption.format(
@@ -84,8 +84,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} Python Version -** {pyver}
 **{EMOJI} Uptime -** {uptime}
 **{EMOJI} Platform -** Linux
-**{EMOJI} Database -** SQL
-**🔥This World shall Know the pain:- All mighty push!🔥***"""
+**{EMOJI} Database -** SQL"""
 
 @catub.cat_cmd(
     pattern="ialive$",
