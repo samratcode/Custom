@@ -85,7 +85,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} Uptime -** {uptime}
 **{EMOJI} Platform -** Linux
 **{EMOJI} Database -** SQL
-**Server Ping-**{ms}"""
+**Server Ping-**`372.763 ms`"""
 
 @catub.cat_cmd(
     pattern="ialive$",
