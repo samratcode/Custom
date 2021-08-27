@@ -80,11 +80,12 @@ async def amireallyalive(event):
 
 
 temp = """{ALIVE_TEXT}
-**{EMOJI} Database -** SQL
 **{EMOJI} Telethon Version -** {telever}
 **{EMOJI} Python Version -** {pyver}
 **{EMOJI} Uptime -** {uptime}
-**{EMOJI} Platform -** Linux"""
+**{EMOJI} Platform -** Linux
+**{EMOJI} Database -** SQL
+**🔥This World shall Know the pain:- All mighty push!🔥***"""
 
 @catub.cat_cmd(
     pattern="ialive$",
