@@ -80,10 +80,11 @@ async def amireallyalive(event):
 
 
 temp = """{ALIVE_TEXT}
-**{EMOJI} Telethon Version -** {telever}
-**{EMOJI} Python Version -** {pyver}
-**{EMOJI} Platform -** Linux
 **{EMOJI} Database -** SQL
+**{EMOJI} Platform -** Linux
+**{EMOJI} Python Version -** {pyver}
+**{EMOJI} Telethon Version -** {telever}
+**ㅤㅤ** ㅤㅤ
 **Server Ping-**`372.763 ms`
 **Server Uptime -**`{uptime}`"""
 
